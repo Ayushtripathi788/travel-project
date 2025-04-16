@@ -1,0 +1,160 @@
+/* Set background image and full height */
+body {
+    margin: 0;
+    padding: 0;
+    background: url(IMAGE/BG\ IMAGE\ MAIN\ PAGE.jpg) no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    height: 100vh;
+    color: white;
+}
+
+/* Optional dark overlay over background for better text visibility */
+.overlay {
+    background-color: rgba(0, 0, 0, 0.6); 
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 40px;
+}
+
+.button-container {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 15px 35px;
+    margin: 10px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+}
+
+.btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+/* Login page */
+.login-container {
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    max-width: 400px;
+    width: 90%;
+    text-align: center;
+}
+
+.login-container h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background: rgba(255,255,255,0.9);
+}
+
+.login-form input:focus {
+    outline: none;
+    background: #fff;
+    box-shadow: 0 0 5px #28a745;
+}
+
+.login-form .btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+/* Registration as user page */
+
+
+.register-container {
+    body {
+        background: url(IMAGE/registration\ page.jpeg) no-repeat center center fixed;
+        background-size: cover;
+    }
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 40px 30px;
+    border-radius: 10px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    max-width: 450px;
+    width: 90%;
+    text-align: center;
+}
+
+.register-container h2 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 32px;
+}
+
+.register-form input {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background: rgba(255,255,255,0.95);
+}
+
+.register-form input:focus {
+    outline: none;
+    background: #fff;
+    box-shadow: 0 0 5px #28a745;
+}
+
+.register-form .btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+/* Register form select (dropdown) */
+.register-form select {
+    width: 100%;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    background: rgba(255,255,255,0.95);
+    body {
+        background: url(IMAGE/registration\ page.jpeg) no-repeat center center fixed;
+        background-size: cover;
+    }
+}
+
+.register-form select:focus {
+    outline: none;
+    background: #fff;
+    box-shadow: 0 0 5px #28a745;
+}
+
